@@ -22,7 +22,7 @@ header {
     color: var(--fontcolor);
     background-color: rgb(54, 88, 138);
     opacity: .8;
-    box-shadow: 30px 40px 40px -10px rgb(31, 41, 31);
+    box-shadow: 100px 0px 10px 0px rgb(31, 41, 31);
     position: relative;
     top: 280px;
 }
@@ -47,7 +47,7 @@ body section {
 section h2 {
     text-decoration: underline;
     text-align: center;
-    box-shadow: 30px 40px 40px -10px rgb(31, 36, 31);
+    box-shadow: 100px 0px 10px 0px rgb(31, 36, 31);
 }
 
 section p {
@@ -71,7 +71,7 @@ section h3 {
     font-family: var(--ff);
     color: var(--fontcolor);
     font-size: 45px;
-    box-shadow: 30px 40px 40px -10px rgb(31, 36, 31);
+    box-shadow: 100px 0px 10px 0px rgb(31, 36, 31);
 }
 
 ul {
@@ -85,27 +85,29 @@ section .container-0 {
     justify-content: space-around;
 }
 .project-flex a {
+    width: 200px;
     color: var(--fontcolor);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     font-size: 45px;
     border-style: groove;
-    border-radius: 20%;
+    border-radius: 20px;
     border-color: var(--fontcolor);
 }
+.project-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
-.project-flex a::hover {
+a::hover {
     cursor: grabbing;
-    font-size: 60px;
 }
 
-.project-flex a::active {
-    font-size: 20px;
-    box-shadow: 0 0 10px black inset;
+ a:active {
+    font-size: 35px;
+    box-shadow: 0 0 20px lavender inset;
 }
 
-.project-flex a::focus {
+a::focus {
     border-color: solid color var(--fontcolor);
     outline: none;
 }
@@ -121,7 +123,7 @@ footer h4 {
     font-family: var(--ff);
     color: var(--fontcolor);
     font-size: 45px;
-    box-shadow: 30px 40px 40px -10px rgb(31, 36, 31);
+    box-shadow: 100px 0px 10px 0px rgb(31, 36, 31);
 }
 
 footer section {
@@ -140,7 +142,7 @@ footer p {
     text-align: center;
     font-size: 25px;
     font-family: var(--ff);
-} */
+}
 
 
 @media screen and (max-width: 766px) {
