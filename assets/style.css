@@ -1,3 +1,7 @@
+/* make ease of access for font, colour, and weight */
+/* have center alignment for aesthetics */
+/* have section headers equal for looks in terms of position, size, colour  */
+/* have list items rowed and none bulletted */
 :root {
     --ff: Onyx, Arial, Helvetica, sans-serif;
     --fontcolor: lightsteelblue;
@@ -42,6 +46,7 @@ div li a {
 .container-1 {
     padding-right: 400px;
 }
+
 
 .header-photo h1 {
     font-size: 60px;
@@ -126,6 +131,7 @@ section .container-0 {
     justify-content: space-evenly;
 }
 
+/* have visual changed to buttons change size and colour */
 a::hover {
     cursor: grabbing;
 }
@@ -172,6 +178,8 @@ footer p {
     font-size: 25px;
     font-family: var(--ff);
 }
+
+/* have screen changes be movable to fit with desktop, phone, and tablet sizes w/in changes of px */
 
 @media screen and (max-width: 766px) {
     html {
