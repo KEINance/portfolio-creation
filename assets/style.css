@@ -47,7 +47,7 @@ div li a {
     padding-right: 400px;
 }
 
-
+/* have header over image */
 .header-photo h1 {
     font-size: 60px;
     color: var(--fontcolor);
@@ -64,6 +64,8 @@ div li a {
     height: 320px;
 }
 
+
+/* profile picture */
 .first-image {
     box-shadow: 30px 40px 40px -10px rgb(31, 36, 31);
     float: left;
@@ -131,9 +133,19 @@ section .container-0 {
     justify-content: space-evenly;
 }
 
+/* project images here */
+
+img class = project-img {
+    padding: right 40px;
+}
+
+
 /* have visual changed to buttons change size and colour */
-a::hover {
+/* add grab affect with cursor */
+/* make have colour over box when hover */
+a:hover {
     cursor: grabbing;
+    box-shadow: 0 0 50px lightsteelblue;
 }
 
  a:active {
