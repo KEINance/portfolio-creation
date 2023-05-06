@@ -200,9 +200,14 @@ footer p {
         display: flex;
         flex-wrap: wrap;
     }
-        section {
+    section {
         padding-left: 280px;
     }
+    .container-1 a {
+        color: var(--fontcolor);
+        font-size: 25px;
+        padding-right: 80px;
+}
 }
 
 @media screen and (max-width: 481px) {
@@ -215,6 +220,11 @@ footer p {
     section {
         padding-left: 200px;
     }
+    .container-1 a {
+        color: var(--fontcolor);
+        font-size: 25px;
+        padding-right: 80px;
+}
 }
 
 @media screen and (max-width: 320px) {
@@ -227,4 +237,9 @@ footer p {
         section {
         padding-left: 180px;
     }
+.container-1 a {
+        color: var(--fontcolor);
+        font-size: 25px;
+        padding-right: 80px;
+}
 }
